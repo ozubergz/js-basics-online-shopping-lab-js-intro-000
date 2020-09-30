@@ -21,7 +21,9 @@ function viewCart() {
 
   let result = "In your cart, you have ";
 
-  
+  for(let i = 0; i < cart.length; i++) {
+    result += `${cart[i].itemName}`
+  }
 }
 
 function total() {
