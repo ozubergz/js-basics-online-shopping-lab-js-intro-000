@@ -24,6 +24,8 @@ function viewCart() {
   for(let i = 0; i < cart.length; i++) {
     result += `${cart[i].itemName} at ${cart[i].itemPrice}${i === cart.length ? ', ' : '.'}`
   }
+
+  return result
 }
 
 function total() {
