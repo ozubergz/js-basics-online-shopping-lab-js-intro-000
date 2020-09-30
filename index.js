@@ -19,10 +19,10 @@ function viewCart() {
   // write your code here
   if(cart.length === 0) return 'Your shopping cart is empty.'
 
-  let result = "In your cart you have ";
+  let result = "In your, cart you have ";
 
   for(let i = 0; i < cart.length; i++) {
-    result += `${cart[i].itemName} at $${cart[i].itemPrice}${i === cart.length ? '.' : ', '}`
+    result += `${cart[i].itemName} at $${cart[i].itemPrice}${i === cart.length - 1 ? '.' : ', '}`
   }
 
   return result
