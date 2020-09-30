@@ -22,7 +22,7 @@ function viewCart() {
   let result = "In your, cart you have";
 
   for(let i = 0; i < cart.length; i++) {
-    result += `${i === cart.length - 1 ? 'and' : ''} ${cart[i].itemName} at $${cart[i].itemPrice}${i === cart.length - 1 ? '.' : ','}`
+    result += `${i === cart.length - 1 ? ' and' : ''} ${cart[i].itemName} at $${cart[i].itemPrice}${i === cart.length - 1 ? '.' : ','}`
   }
 
   return result
