@@ -40,6 +40,7 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
+  let index = 0;
   
 }
 
