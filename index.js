@@ -2,7 +2,7 @@ var cart = [];
 
 function getCart(item) {
  cart.push( {itemName: item, itemPrice: Math.floor(Math.random() * 100) + 1} )
- return cart;
+ return `${item} `;
 }
 
 function setCart(c) {
