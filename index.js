@@ -19,7 +19,9 @@ function viewCart() {
   // write your code here
   if(cart.length === 0) return 'Your shopping cart is empty.'
 
-  let result = ""
+  let result = "In your cart, you have ";
+
+  for(let i = 0; i < cart.length)
 }
 
 function total() {
